@@ -1,11 +1,22 @@
 const container = document.querySelector('.container');
 
-let items ='';
+const difficoltaU = prompt('inserisci difficolta') ;
 
-switch (difficolta) {
+
+switch (difficoltaU) {
     default:
         n = 100;
         break;
+    case 'media':
+        n = 81;
+        break;
+    case 'difficile':
+        n = 49;
+        break;
+    case 'facile':
+        n = 100;
+        break;
+
 }
 
 
@@ -23,6 +34,8 @@ for (let i = 0; i < n; i++) {
 
     divEL.addEventListener('click', function() {
         this.classList.add('clicked-true');
+   
+    
     })
 
 }

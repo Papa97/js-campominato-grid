@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  line-height: 100px;
+}
+
 .container {
   width: 70%;
   margin: 0 auto;
